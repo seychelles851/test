@@ -1,0 +1,133 @@
+/* styles for light-mode */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5e54c2;
+    height: 90px;
+}
+
+.burger {
+    font-size: 25px !important;
+}
+
+.offcanvas {
+    width: 300px !important;
+    background-color: whitesmoke;
+}
+
+.offcanvas-header {
+    background-color: #5e54c2;
+}
+
+.menu-item {
+    list-style-type: none !important;
+}
+
+.menu-item a:hover {
+    box-shadow: 0px 1px 5px #5e54c2;    
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.d-flex {
+    margin-right: -10px;
+}
+  
+.flex-item {
+    margin-right: 10px;
+}
+
+.tab-content {
+    background-color: whitesmoke;
+}
+
+#home {
+    min-height: 475px;
+}
+
+#services {
+    min-height: 475px;
+}
+
+#orders {
+    min-height: 475px;
+}
+
+.modal-header {
+    background-color: #5e54c2;
+    color: white !important;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+small {
+    color: red !important;
+}
+
+.scrollable {
+    border-radius: 20px;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.subscription {
+    border-radius: 20px;
+}
+
+/* styles for dark mode */
+
+.dark-mode header {
+    background-color: #483b9c;
+    color: white;
+}
+
+.dark-mode .burger {
+    color: white;
+}
+
+.dark-mode .magnifying-glass {
+    color: white;
+}
+
+.dark-mode .offcanvas {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .nav-link {
+    color: white !important;
+}
+
+.dark-mode .modal-header {
+    background-color: #483b9c;
+    color: white !important;
+}
+
+.dark-mode .modal-content {
+    background-color: #333333;
+    color: white !important;
+}
+
+.dark-mode .tab-content {
+    background-color: #333333;
+    color: white !important;
+}
+
+.dark-mode small {
+    color: red !important;
+}
+  
